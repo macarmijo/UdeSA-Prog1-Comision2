@@ -23,5 +23,5 @@ Repositorio de Programación 1, turno tarde, comisión 2, segundo semestre 2021.
 
 
 ## Parciales ##
-1. 20 Septiembre 2021
+1. 21 Septiembre 2021
 2. A definir
