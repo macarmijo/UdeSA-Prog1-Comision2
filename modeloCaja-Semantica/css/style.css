@@ -1,0 +1,37 @@
+/* Selector Universal */
+*{
+    box-sizing: border-box; /* Ahora el MAXIMO ancho de mis cajas van a estar siempre definidas por la propiedad width */
+}
+body{
+    margin:0 /* le saco el margin que viene por defecto */
+}
+
+h1{
+    background-color: red;
+    margin:0 /* le saco el margin que viene por defecto */
+}
+
+
+
+/* LINEA */
+.menu li a{
+    background-color: yellow;
+    display: inline-block;
+    width: 50%; /*  ocupa del 50% de su caja padre. Es decir si la etiqueta <li> ocupa 400px, la etiqueta <a> va a ocupar 200px */
+}
+
+/* BLOQUE - ocupa el 100% del ancho, excepto que le indique lo contratio con la propiedad width*/
+.menu li{
+    background-color: blue;
+    width:400px;
+    padding: 20px 60px;  /* RELLENO INTERNO */
+    margin: 30px 0;  /* Separación/Distancia entre cajas */
+    border: dashed 2px violet;
+}
+
+/* BLOQUE: MARGIN-PADDING-BORDER- WIDTH - HEIGTH */
+
+/* Linea - respecta el ancho de mi contenido*/
+.footer a{
+    background-color: green;
+}

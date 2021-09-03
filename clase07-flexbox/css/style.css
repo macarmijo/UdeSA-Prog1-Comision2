@@ -1,0 +1,40 @@
+/* voy de lo General a lo particular */
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #444;
+}
+
+.main-container{
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+/* header */
+.nav-login{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.nav-login a{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.burguer-menu{
+    display: none;
+}
+
+header{
+   display: flex;
+   justify-content: center
+}
+
